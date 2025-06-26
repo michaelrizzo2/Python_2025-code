@@ -2,8 +2,8 @@ import openai as my_openai
 import os
 from dotenv import load_dotenv
 
-load_dotenv
-my_openai.apikey=os.getenv(openai_key)
+load_dotenv()
+my_openai.apikey=os.getenv("openai_key")
 def ask_ai(question,content):
     response=my_openai.ChatCompletion.create(
         model="gpt-4",
