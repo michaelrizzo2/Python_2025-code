@@ -18,6 +18,5 @@ def ask_ai(question,content):
 
 my_prompt=input("Please give me your question\n")
 my_response=ask_ai(my_prompt,"you are a assistant")
-print(my_response)
 
 
